@@ -169,7 +169,8 @@ public class YelpAPI {
     YelpAPICLI yelpApiCli = new YelpAPICLI();
     new JCommander(yelpApiCli, args);
 
-    YelpAPI yelpApi = new YelpAPI(CONSUMER_KEY, CONSUMER_SECRET, TOKEN, TOKEN_SECRET);
+    YelpAPI yelpApi = new YelpAPI("c2LzoUcz0rLTPzChnw-94g", "F4FBkmDJ_j0SQ7Zniw6CYVeg1Mk", 
+      "kKh3t0QmeoKOjMlD2BmLD2NqngplY6Ug", "gdMLKN4q_8ogehdieNlckO_tyh0");
     queryAPI(yelpApi, yelpApiCli);
   }
 }
